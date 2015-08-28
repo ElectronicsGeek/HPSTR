@@ -15,10 +15,13 @@
             }
         ]
     },
-    "sdkVersion": "2",
+    "sdkVersion": "3",
     "shortName": "HPSTR",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
     "uuid": "3f5e2329-8af2-42af-9b33-44424ace1003",
-    "versionCode": 1,
     "versionLabel": "1.0",
     "watchapp": {
         "watchface": true

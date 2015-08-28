@@ -22,6 +22,7 @@ static bool display_date;
 
 static void main_window_load() {
   // Create hipster image and place on BitmapLayer
+  
   s_hipster_image = gbitmap_create_with_resource(RESOURCE_ID_HIPSTER);
   s_image_layer = bitmap_layer_create(GRect(0,0,144, 168));
   bitmap_layer_set_bitmap(s_image_layer, s_hipster_image);
